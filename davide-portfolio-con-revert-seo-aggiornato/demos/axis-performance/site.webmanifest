@@ -1,9 +1,0 @@
-{
-  "name": "AXIS Performance",
-  "short_name": "AXIS",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#10110f",
-  "theme_color": "#e9ff45",
-  "icons": []
-}
