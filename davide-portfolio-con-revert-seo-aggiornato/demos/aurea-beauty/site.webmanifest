@@ -1,0 +1,9 @@
+{
+  "name": "Aurea Beauty Atelier",
+  "short_name": "Aurea",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#efe9df",
+  "theme_color": "#efe9df",
+  "icons": []
+}

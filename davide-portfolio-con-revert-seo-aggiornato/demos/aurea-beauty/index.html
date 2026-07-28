@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#efe9df">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="description" content="Aurea Beauty Atelier — trattamenti viso, corpo, manicure e rituali personalizzati in un ambiente riservato.">
+  <link rel="canonical" href="https://www.example.com/">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Aurea Beauty Atelier">
+  <meta property="og:description" content="Beauty ritual, skincare e trattamenti su misura.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1600&q=85&fm=webp">
+  <meta property="og:url" content="https://www.example.com/">
+
+  <title>Aurea Beauty Atelier — Centro estetico</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BeautySalon",
+    "name":"Aurea Beauty Atelier",
+    "url":"https://www.example.com/",
+    "telephone":"+39 000 000 0000",
+    "email":"ciao@aureabeauty.it",
+    "image":"https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1600&q=85&fm=webp",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Via Esempio 24",
+      "addressLocality":"Padova",
+      "postalCode":"35100",
+      "addressCountry":"IT"
+    },
+    "openingHours":"Tu-Sa 09:00-19:00"
+  }
+  </script>
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-mark">A</div>
+    <div class="loader-copy">
+      <span>Aurea Beauty Atelier</span>
+      <span id="loaderCount">00</span>
+    </div>
+    <div class="loader-progress"><span></span></div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="nav shell">
+      <a href="#top" class="logo">
+        <span class="logo-mark">A</span>
+        <span>Aurea<br>Beauty Atelier</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Navigazione principale">
+        <a href="#rituali">Trattamenti</a>
+        <a href="#metodo">Il metodo</a>
+        <a href="#atelier">Atelier</a>
+        <a href="#recensioni">Recensioni</a>
+      </nav>
+
+      <a href="#prenota" class="nav-cta">Prenota</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="Apri menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav>
+      <a href="#rituali"><span>01</span>Trattamenti</a>
+      <a href="#metodo"><span>02</span>Il metodo</a>
+      <a href="#atelier"><span>03</span>Atelier</a>
+      <a href="#recensioni"><span>04</span>Recensioni</a>
+      <a href="#prenota"><span>05</span>Prenota</a>
+    </nav>
+    <div class="mobile-menu-meta">
+      <span>Padova · Italia</span>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram ↗</a>
+    </div>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy shell">
+        <p class="kicker reveal">Beauty ritual · Skincare · Body care</p>
+        <h1>
+          <span class="hero-line">La cura</span>
+          <span class="hero-line italic">come rituale.</span>
+        </h1>
+        <div class="hero-bottom">
+          <p class="hero-text reveal">
+            Trattamenti estetici personalizzati, gesti precisi e tempo dedicato.
+            Un atelier pensato per farti sentire bene nella tua pelle.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#prenota" class="button button-dark magnetic">Prenota il tuo rituale</a>
+            <a href="#rituali" class="text-link">Scopri i trattamenti <span>↘</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1800&q=86&fm=webp" alt="Trattamento viso in centro estetico" fetchpriority="high">
+        <div class="hero-media-label">
+          <span>01</span>
+          <span>Personal beauty ritual</span>
+        </div>
+      </div>
+
+      <div class="hero-orbit" aria-hidden="true">
+        <svg viewBox="0 0 190 190">
+          <defs><path id="orbitPath" d="M95 95m-72 0a72 72 0 1 1 144 0a72 72 0 1 1-144 0"/></defs>
+          <text><textPath href="#orbitPath">AUREA BEAUTY · CARE · BALANCE · GLOW · </textPath></text>
+        </svg>
+        <span>✦</span>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="shell intro-grid">
+        <p class="section-tag">01 · Filosofia</p>
+        <div>
+          <p class="intro-lead">
+            La bellezza non è correggere. È ascoltare, proteggere e valorizzare ciò che già esiste.
+          </p>
+          <div class="intro-small">
+            <p>Analisi personalizzata</p>
+            <p>Protocolli professionali</p>
+            <p>Risultati progressivi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rituals" id="rituali">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <p class="section-tag">02 · I rituali</p>
+            <h2>Trattamenti<br><em>su misura.</em></h2>
+          </div>
+          <p>
+            Ogni percorso parte dall'ascolto. Valutiamo pelle, abitudini e obiettivi
+            per costruire un trattamento realmente adatto a te.
+          </p>
+        </div>
+
+        <div class="ritual-list">
+          <article class="ritual-card">
+            <div class="ritual-number">01</div>
+            <div class="ritual-image">
+              <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1100&q=85&fm=webp" alt="Trattamento viso professionale" loading="lazy">
+            </div>
+            <div class="ritual-copy">
+              <div>
+                <h3>Viso</h3>
+                <p>Pulizia profonda, idratazione, luminosità e protocolli anti-age personalizzati.</p>
+              </div>
+              <a href="#prenota">Scopri il rituale ↗</a>
+            </div>
+          </article>
+
+          <article class="ritual-card reverse">
+            <div class="ritual-number">02</div>
+            <div class="ritual-image">
+              <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1100&q=85&fm=webp" alt="Massaggio e trattamento corpo" loading="lazy">
+            </div>
+            <div class="ritual-copy">
+              <div>
+                <h3>Corpo</h3>
+                <p>Rituali drenanti, rimodellanti e rilassanti per ritrovare leggerezza e benessere.</p>
+              </div>
+              <a href="#prenota">Scopri il rituale ↗</a>
+            </div>
+          </article>
+
+          <article class="ritual-card">
+            <div class="ritual-number">03</div>
+            <div class="ritual-image">
+              <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1100&q=85&fm=webp" alt="Manicure professionale" loading="lazy">
+            </div>
+            <div class="ritual-copy">
+              <div>
+                <h3>Mani</h3>
+                <p>Manicure, semipermanente e cura delle unghie con un risultato pulito e raffinato.</p>
+              </div>
+              <a href="#prenota">Scopri il rituale ↗</a>
+            </div>
+          </article>
+
+          <article class="ritual-card reverse">
+            <div class="ritual-number">04</div>
+            <div class="ritual-image">
+              <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1100&q=85&fm=webp" alt="Rituale relax e benessere" loading="lazy">
+            </div>
+            <div class="ritual-copy">
+              <div>
+                <h3>Relax</h3>
+                <p>Massaggi viso e corpo, aromi delicati e gesti lenti per interrompere il ritmo esterno.</p>
+              </div>
+              <a href="#prenota">Scopri il rituale ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Servizi">
+      <div class="marquee-track">
+        <span>Glow facial · Body ritual · Manicure · Skin analysis · Massage ·</span>
+        <span>Glow facial · Body ritual · Manicure · Skin analysis · Massage ·</span>
+      </div>
+    </section>
+
+    <section class="method" id="metodo">
+      <div class="method-media">
+        <img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=1400&q=85&fm=webp" alt="Dettaglio prodotti skincare e trattamento" loading="lazy">
+      </div>
+
+      <div class="method-copy">
+        <p class="section-tag">03 · Il metodo</p>
+        <h2>Prima ascoltiamo.<br><em>Poi trattiamo.</em></h2>
+        <p class="method-intro">
+          Nessun trattamento standard. Il protocollo viene scelto solo dopo
+          una consulenza e una valutazione delle reali esigenze della pelle.
+        </p>
+
+        <div class="method-steps">
+          <article>
+            <span>01</span>
+            <div>
+              <h3>Consulenza</h3>
+              <p>Parliamo delle tue abitudini, sensibilità e obiettivi.</p>
+            </div>
+          </article>
+          <article>
+            <span>02</span>
+            <div>
+              <h3>Analisi</h3>
+              <p>Valutiamo lo stato della pelle e definiamo le priorità.</p>
+            </div>
+          </article>
+          <article>
+            <span>03</span>
+            <div>
+              <h3>Rituale</h3>
+              <p>Costruiamo il trattamento e i prodotti più adatti.</p>
+            </div>
+          </article>
+          <article>
+            <span>04</span>
+            <div>
+              <h3>Continuità</h3>
+              <p>Ti accompagniamo con indicazioni semplici e percorsi progressivi.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="atelier" id="atelier">
+      <div class="shell">
+        <div class="atelier-head">
+          <p class="section-tag">04 · L'atelier</p>
+          <h2>Uno spazio per<br><em>rallentare.</em></h2>
+        </div>
+
+        <div class="atelier-gallery">
+          <figure class="gallery-main">
+            <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=1500&q=85&fm=webp" alt="Interno centro estetico elegante" loading="lazy">
+          </figure>
+          <figure class="gallery-small top">
+            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=85&fm=webp" alt="Massaggio rilassante" loading="lazy">
+          </figure>
+          <div class="atelier-note">
+            <span>Quiet beauty</span>
+            <p>Materiali naturali, luce morbida e ambienti riservati. Ogni dettaglio è pensato per farti sentire a tuo agio.</p>
+          </div>
+          <figure class="gallery-small bottom">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=85&fm=webp" alt="Dettaglio trattamento viso" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="recensioni">
+      <div class="shell">
+        <div class="reviews-head">
+          <p class="section-tag">05 · Esperienze</p>
+          <div class="review-controls">
+            <button id="reviewPrev" aria-label="Recensione precedente">←</button>
+            <button id="reviewNext" aria-label="Recensione successiva">→</button>
+          </div>
+        </div>
+
+        <div class="review-stage" id="reviewStage">
+          <article class="review active">
+            <blockquote>“Non mi sono sentita semplicemente trattata, ma ascoltata. La mia pelle è migliorata e ho finalmente una routine che riesco a seguire.”</blockquote>
+            <footer><span>Elena M.</span><span>Trattamento viso · 5/5</span></footer>
+          </article>
+          <article class="review">
+            <blockquote>“Ambiente bellissimo, grande delicatezza e risultato naturale. È diventato il mio momento fisso del mese.”</blockquote>
+            <footer><span>Sara P.</span><span>Beauty ritual · 5/5</span></footer>
+          </article>
+          <article class="review">
+            <blockquote>“La consulenza iniziale ha fatto la differenza. Nessuna promessa esagerata, solo un percorso chiaro e risultati reali.”</blockquote>
+            <footer><span>Martina R.</span><span>Skin journey · 5/5</span></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking" id="prenota">
+      <div class="booking-left">
+        <p class="section-tag">06 · Prenota</p>
+        <h2>Il tuo tempo<br><em>inizia qui.</em></h2>
+        <p>
+          Compila il modulo. Si aprirà WhatsApp con la richiesta già pronta,
+          senza inviare dati automaticamente.
+        </p>
+        <div class="booking-meta">
+          <span>Mar–Sab · 09:00–19:00</span>
+          <span>Padova · Italia</span>
+        </div>
+      </div>
+
+      <form class="booking-form" id="bookingForm">
+        <label>
+          <span>Nome e cognome</span>
+          <input type="text" id="name" required placeholder="Come ti chiami?">
+        </label>
+        <label>
+          <span>Trattamento</span>
+          <select id="treatment">
+            <option>Consulenza iniziale</option>
+            <option>Trattamento viso</option>
+            <option>Trattamento corpo</option>
+            <option>Manicure</option>
+            <option>Massaggio relax</option>
+            <option>Non sono sicura/o</option>
+          </select>
+        </label>
+        <label>
+          <span>Quando preferisci?</span>
+          <input type="text" id="when" placeholder="Es. venerdì pomeriggio">
+        </label>
+        <label>
+          <span>Note</span>
+          <textarea id="notes" placeholder="Raccontaci brevemente cosa cerchi"></textarea>
+        </label>
+        <button type="submit" class="button button-dark magnetic">Richiedi appuntamento ↗</button>
+        <p class="form-note">Si aprirà WhatsApp con il messaggio già compilato.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="footer-letter">A</span>
+        <h3>Aurea<br>Beauty Atelier</h3>
+      </div>
+
+      <div class="footer-column">
+        <span>Esplora</span>
+        <a href="#rituali">Trattamenti</a>
+        <a href="#metodo">Il metodo</a>
+        <a href="#atelier">Atelier</a>
+        <a href="#recensioni">Recensioni</a>
+      </div>
+
+      <div class="footer-column">
+        <span>Contatti</span>
+        <a href="https://wa.me/393519927137">WhatsApp</a>
+        <a href="mailto:ciao@aureabeauty.it">Email</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+
+      <div class="footer-column">
+        <span>Informazioni</span>
+        <a href="./privacy.html">Privacy</a>
+        <p>Via Esempio 24<br>35100 Padova</p>
+      </div>
+    </div>
+
+    <div class="shell footer-bottom">
+      <span>© 2026 Aurea Beauty Atelier</span>
+      <span>Template by Davide</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="./assets/js/app.js" defer></script>
+</body>
+</html>
