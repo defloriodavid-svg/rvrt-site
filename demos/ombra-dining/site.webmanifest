@@ -1,0 +1,9 @@
+{
+  "name": "OMBRA Fine Dining",
+  "short_name": "OMBRA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#120e0c",
+  "theme_color": "#120e0c",
+  "icons": []
+}

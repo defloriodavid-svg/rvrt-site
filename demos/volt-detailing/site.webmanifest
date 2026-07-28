@@ -1,0 +1,9 @@
+{
+  "name": "VOLT Auto Lab",
+  "short_name": "VOLT",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#05080b",
+  "theme_color": "#05080b",
+  "icons": []
+}
